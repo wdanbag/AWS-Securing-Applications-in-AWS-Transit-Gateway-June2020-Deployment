@@ -3,7 +3,7 @@ The following terraform templates implement the Reference Architecture for Palo 
 
 # Transit Gateway Topology
 In the topology below everything is implemented except the Panorama Management VPC or the VPN back to a corporate datacenter. In addition, two webservers one in each availability zone (web a and web b) are created in the web VPC along with an internal load balancer to distribute traffic between the two. 
-![image Transitgateway Topology](https://user-images.githubusercontent.com/55389530/89569910-633a2080-d7f3-11ea-964a-14982fb2bc67.png)
+![image](https://user-images.githubusercontent.com/55389530/89784094-1487d180-dae6-11ea-8e34-f71bc41d3ca9.png)
 
 
 # Instructions
