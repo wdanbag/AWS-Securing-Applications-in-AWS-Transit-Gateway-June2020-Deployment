@@ -2,7 +2,7 @@
 The following terraform templates implement the Reference Architecture for Palo Alto Networks VM-Series Transit Gateway VPC Model for June 2020 release found at https://www.paloaltonetworks.com/resources/reference-architectures/aws.
 
 # Transit Gateway Topology
-In the topology below everything is implemented except the Panorama Management VPC or the VPN back to a corporate datacenter.  
+In the topology below everything is implemented except the Panorama Management VPC or the VPN back to a corporate datacenter. In addition, two webservers one in each availability zone are created in the web VPC. 
 ![image Transitgateway Topology](https://user-images.githubusercontent.com/55389530/89569910-633a2080-d7f3-11ea-964a-14982fb2bc67.png)
 
 
