@@ -112,7 +112,9 @@ resource "aws_instance" "instance-ngfw" {
   ami           = "${data.aws_ami.panw_ngfw.image_id}"
   instance_type = "${var.instance_type}"
   key_name      = "${var.aws_key}"
-
+  root_block_device {
+    delete_on_termination = true
+  }
   monitoring = false
 
   network_interface {
